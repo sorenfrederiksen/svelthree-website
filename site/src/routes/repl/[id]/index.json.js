@@ -13,7 +13,8 @@ async function import_gist(req, res) {
 	try {
 		const { data } = await httpie.get(url, {
 			headers: {
-				'User-Agent': 'https://svelte.dev'
+				//'User-Agent': 'https://svelte.dev'
+				'User-Agent': 'https://github.com/vatro',
 			}
 		});
 
