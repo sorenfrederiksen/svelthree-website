@@ -50,7 +50,7 @@
 			<Icon name="message-square"/>
 		</NavItem> -->
 
-		<NavItem external="https://github.com/sveltejs/svelte" title="GitHub Repo">
+		<NavItem external="https://github.com/vatro/svelthree" title="GitHub Repo">
 			<Icon name="github"/>
 		</NavItem>
 	</Nav>
