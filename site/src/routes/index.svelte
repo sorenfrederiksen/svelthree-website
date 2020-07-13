@@ -37,8 +37,8 @@
 <Hero
 	title="Svelte"
 	tagline="Cybernetically enhanced web apps"
-	outline="svelte-logo-outline.svg"
-	logotype="svelte-logotype.svg"
+	outline="svelthree-logo-outline.svg"
+	logotype="svelthree-logotype.svg"
 />
 
 <Blurb>

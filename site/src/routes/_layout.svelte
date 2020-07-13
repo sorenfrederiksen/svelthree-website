@@ -36,7 +36,7 @@
 {/if}
 
 {#if $page.path !== '/repl/embed'}
-	<Nav {segment} {page} logo="svelte-logo-horizontal.svg">
+	<Nav {segment} {page} logo="svelthree-logo-horizontal.svg">
 		<NavItem segment="tutorial">Tutorial</NavItem>
 		<NavItem segment="docs">API</NavItem>
 		<NavItem segment="examples">Examples</NavItem>
