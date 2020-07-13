@@ -44,7 +44,8 @@
 <Blurb>
 
 	<div class="description" slot="what">
-		<p>Svelthree is a components library for declarative construction of reactive and reusable Threejs scene graphs utilizing nothing but Svelte and Threejs. Initally created as a proof of concept, svelthree now aims to be a library offering a declarative, component based, yet familiar, Threejs-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
+		<p>Svelthree is a components library for declarative construction of reactive and reusable Threejs scene graphs utilizing nothing but Svelte and Threejs.<p/>
+		<p>Initally created as a proof of concept, svelthree now aims to be a library offering web-developers a declarative, component based, yet familiar, Threejs-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
 
 		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
 
