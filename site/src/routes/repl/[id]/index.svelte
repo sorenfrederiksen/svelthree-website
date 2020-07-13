@@ -191,7 +191,7 @@
 	<title>{name} • REPL • Svelte</title>
 
 	<meta name="twitter:title" content="Svelte REPL">
-	<meta name="twitter:description" content="Cybernetically enhanced web apps">
+	<meta name="twitter:description" content="Svelte powered three.js development">
 	<meta name="Description" content="Interactive Svelte playground">
 </svelte:head>
 

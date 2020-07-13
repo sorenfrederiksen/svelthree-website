@@ -15,8 +15,8 @@
 	<title>API Docs • Svelte</title>
 
 	<meta name="twitter:title" content="Svelte API docs">
-	<meta name="twitter:description" content="Cybernetically enhanced web apps">
-	<meta name="Description" content="Cybernetically enhanced web apps">
+	<meta name="twitter:description" content="Svelte powered three.js development">
+	<meta name="Description" content="Svelte powered three.js development">
 </svelte:head>
 
 <Docs {sections}/>

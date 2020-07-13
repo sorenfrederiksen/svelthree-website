@@ -27,16 +27,16 @@
 </style>
 
 <svelte:head>
-	<title>Svelte • Cybernetically enhanced web apps</title>
+	<title>Svelte • Svelte powered three.js development</title>
 
 	<meta name="twitter:title" content="Svelte">
-	<meta name="twitter:description" content="Cybernetically enhanced web apps">
-	<meta name="Description" content="Cybernetically enhanced web apps">
+	<meta name="twitter:description" content="Svelte powered three.js development">
+	<meta name="Description" content="Svelte powered three.js development">
 </svelte:head>
 
 <Hero
 	title="Svelte"
-	tagline="Cybernetically enhanced web apps"
+	tagline="Svelte powered three.js development"
 	outline="svelthree-logo-outline.svg"
 	logotype="svelthree-logotype.svg"
 />
