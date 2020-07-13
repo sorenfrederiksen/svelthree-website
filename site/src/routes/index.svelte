@@ -1,5 +1,5 @@
 <script>
-	import { Blurb, Hero, Section } from '@sveltejs/site-kit';
+	import { Blurb, Hero, Section } from 'svelthree-site-kit';
 	import Contributors from './_components/Contributors.svelte';
 	import Example from './_components/Example.svelte';
 	import WhosUsingSvelte from './_components/WhosUsingSvelte.svelte';
@@ -42,51 +42,57 @@
 />
 
 <Blurb>
-	<a href="blog/write-less-code" slot="one">
-		<h2>Write less code</h2>
-		<p>Build boilerplate-free components using languages you already know — HTML, CSS and JavaScript</p>
+
+	<div class="description" slot="what">
+		<p>Svelthree is a components library for declarative construction of reactive and reusable Threejs scene graphs utilizing nothing but Svelte and Threejs. Initally created as a proof of concept, svelthree now aims to be a library offering a declarative, component based, yet familiar, Threejs-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
+
+		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
+
+		<p>Explore our <a href="examples/">Examples</a> section and see it for yourself!</p>
+		<!-- <p><a href="faq/">See also our FAQ section</a> to learn more.</p> -->
+	</div>
+
+	<div style="grid-area: start; display: flex; flex-direction: column; min-width: 0" slot="how">
+		<pre class="language-bash" style="margin: 0 0 1em 0; min-width: 0; min-height: 0">
+npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;">vatro/svelthree-starter</a> my-svelthree-project
+<span class="token comment"># or download and extract <a href="https://github.com/vatro/svelthree-starter/master.zip">this .zip file</a></span>
+cd my-svelthree-project
+
+npm install
+npm run dev
+		</pre>
+
+		<!-- <p style="flex: 1">See the <a href="blog/the-easiest-way-to-get-started">quickstart guide</a> for more information.</p> -->
+
+		<!-- <p class="cta"><a rel="prefetch" href="tutorial">Learn Svelte</a></p> -->
+	</div>
+
+	<a href="https://svelte.dev/" slot="one">
+		<h2>Svelte</h2>
+		<p>Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.</p>
+		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
+		<span class="learn-more">learn more</span>
+	</a>
+
+	<a href="https://threejs.org/" slot="two">
+		<h2>Three.js</h2>
+		<p>Threejs is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser. Threejs uses WebGL.</p>
 
 		<span class="learn-more">learn more</span>
 	</a>
 
-	<a href="blog/virtual-dom-is-pure-overhead" slot="two">
-		<h2>No virtual DOM</h2>
-		<p>Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and stays fast</p>
-
-		<span class="learn-more">learn more</span>
-	</a>
-
+	<!--
 	<a href="blog/svelte-3-rethinking-reactivity" slot="three">
 		<h2>Truly reactive</h2>
 		<p>No more complex state management libraries — Svelte brings reactivity to JavaScript itself</p>
 
 		<span class="learn-more">learn more</span>
 	</a>
-
-	<div class="description" slot="what">
-		<p>Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the <em>browser</em>, Svelte shifts that work into a <em>compile step</em> that happens when you build your app.</p>
-
-		<p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p>
-
-		<p><a href="blog/svelte-3-rethinking-reactivity">Read the introductory blog post</a> to learn more.</p>
-	</div>
-
-	<div style="grid-area: start; display: flex; flex-direction: column; min-width: 0" slot="how">
-		<pre class="language-bash" style="margin: 0 0 1em 0; min-width: 0; min-height: 0">
-npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;">sveltejs/template</a> my-svelte-project
-<span class="token comment"># or download and extract <a href="https://github.com/sveltejs/template/archive/master.zip">this .zip file</a></span>
-cd my-svelte-project
-
-npm install
-npm run dev
-		</pre>
-
-		<p style="flex: 1">See the <a href="blog/the-easiest-way-to-get-started">quickstart guide</a> for more information.</p>
-
-		<p class="cta"><a rel="prefetch" href="tutorial">Learn Svelte</a></p>
-	</div>
+	-->
+	
 </Blurb>
 
+<!--
 <div class="examples">
 	<Example id="hello-world">
 		<p>Svelte components are built on top of HTML. Just add data.</p>
@@ -104,13 +110,17 @@ npm run dev
 		<p>Build beautiful UIs with a powerful, performant transition engine built right into the framework.</p>
 	</Example>
 </div>
+-->
 
+<!--
 <Section>
 	<h3>Who's using Svelte?</h3>
 
 	<WhosUsingSvelte/>
 </Section>
+-->
 
+<!--
 <Section>
 	<h3>Contributors</h3>
 
@@ -118,3 +128,4 @@ npm run dev
 
 	<Contributors/>
 </Section>
+-->
