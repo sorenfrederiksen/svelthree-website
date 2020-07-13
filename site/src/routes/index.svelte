@@ -35,7 +35,7 @@
 </svelte:head>
 
 <Hero
-	title="Svelte"
+	title="svelthree"
 	tagline="Svelte powered three.js development"
 	outline="svelthree-logo-outline.svg"
 	logotype="svelthree-logotype.svg"
