@@ -2,7 +2,7 @@
 	import { createEventDispatcher, getContext } from 'svelte';
 	import { stores } from '@sapper/app';
 	import UserMenu from './UserMenu.svelte';
-	import { Icon } from '@sveltejs/site-kit';
+	import { Icon } from 'svelthree-site-kit';
 	import * as doNotZip from 'do-not-zip';
 	import downloadBlob from '../../../_utils/downloadBlob.js';
 	import { enter } from '../../../../../utils/events.js';

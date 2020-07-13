@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { SLUG_PRESERVE_UNICODE, SLUG_SEPARATOR } from '../../../config';
-import { extract_frontmatter, extract_metadata, link_renderer } from '@sveltejs/site-kit/utils/markdown.js';
-import { make_session_slug_processor } from '@sveltejs/site-kit/utils/slug';
+import { extract_frontmatter, extract_metadata, link_renderer } from 'svelthree-site-kit/utils/markdown.js';
+import { make_session_slug_processor } from 'svelthree-site-kit/utils/slug';
 import { highlight } from '../../utils/highlight';
 import marked from 'marked';
 

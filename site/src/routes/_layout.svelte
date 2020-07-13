@@ -1,7 +1,7 @@
 <script>
 	import { setContext } from 'svelte';
 	import { stores } from '@sapper/app';
-	import { Icon, Icons, Nav, NavItem } from '@sveltejs/site-kit';
+	import { Icon, Icons, Nav, NavItem } from 'svelthree-site-kit';
 	import PreloadingIndicator from '../components/PreloadingIndicator.svelte';
 
 	export let segment;
@@ -42,7 +42,7 @@
 		<NavItem segment="examples">Examples</NavItem>
 		<NavItem segment="repl">REPL</NavItem>
 		<!-- <NavItem segment="blog">Blog</NavItem> -->
-		<!-- <NavItem segment="faq">FAQ</NavItem> -->
+		<NavItem segment="faq">FAQ</NavItem>
 
 		<!-- <NavItem external="https://sapper.svelte.dev">Sapper</NavItem> -->
 

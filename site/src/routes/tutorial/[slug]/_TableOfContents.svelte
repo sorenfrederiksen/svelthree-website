@@ -1,6 +1,6 @@
 <script>
 	import { goto } from '@sapper/app';
-	import { Icon } from '@sveltejs/site-kit';
+	import { Icon } from 'svelthree-site-kit';
 
 	export let sections;
 	export let slug;

@@ -1,5 +1,5 @@
 <script>
-	import { Section } from '@sveltejs/site-kit';
+	import { Section } from 'svelthree-site-kit';
 	import IntersectionObserver from '../../components/IntersectionObserver.svelte';
 	import ReplWidget from '../../components/Repl/ReplWidget.svelte';
 

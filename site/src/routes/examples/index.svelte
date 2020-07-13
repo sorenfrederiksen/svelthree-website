@@ -26,7 +26,7 @@
 		svelteUrl
 	} from '../../config';
 	import { process_example } from '../../utils/examples';
-	import { getFragment } from '@sveltejs/site-kit/utils/navigation';
+	import { getFragment } from 'svelthree-site-kit/utils/navigation';
 	import TableOfContents from './_TableOfContents.svelte';
 
 	export let sections;

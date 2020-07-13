@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import send from '@polka/send';
-import { extract_frontmatter } from '@sveltejs/site-kit/utils/markdown';
+import { extract_frontmatter } from 'svelthree-site-kit/utils/markdown';
 
 let json;
 
