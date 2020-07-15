@@ -1,8 +1,8 @@
 <script>
-	import { Blurb, Hero, Section } from 'svelthree-site-kit';
-	import Contributors from './_components/Contributors.svelte';
-	import Example from './_components/Example.svelte';
-	import WhosUsingSvelte from './_components/WhosUsingSvelte.svelte';
+	import { Blurb, Hero /*, Section*/ } from 'svelthree-site-kit';
+	//import Contributors from './_components/Contributors.svelte';
+	//import Example from './_components/Example.svelte';
+	//import WhosUsingSvelte from './_components/WhosUsingSvelte.svelte';
 	// import Lazy from '../components/Lazy.svelte';
 
 	// TODO this causes a Sapper CSS bug...
@@ -19,11 +19,13 @@
 		--text: hsl(36, 3%, 44%);
 	}
 
+	/*
 	.examples {
 		background: var(--second);
 		color: white;
 		overflow: hidden;
 	}
+	*/
 </style>
 
 <svelte:head>
