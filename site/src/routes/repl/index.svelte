@@ -8,7 +8,7 @@
 			return this.redirect(302, `https://v2.svelte.dev/repl?${q}`);
 		}
 
-		const id = gist || example || 'hello-world';
+		const id = gist || example || 'hello-cube';
 		const q = version ? `?version=${version}` : ``;
 
 		this.redirect(301, `repl/${id}${q}`);
