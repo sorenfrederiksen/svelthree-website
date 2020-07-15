@@ -13,7 +13,6 @@ async function import_gist(req, res) {
 	try {
 		const { data } = await httpie.get(url, {
 			headers: {
-				//'User-Agent': 'https://svelte.dev'
 				'User-Agent': 'https://github.com/vatro',
 			}
 		});
@@ -78,7 +77,7 @@ export async function get(req, res) {
 		// In dev, proxy requests to load particular REPLs to the real server.
 		// This avoids needing to connect to the real database server.
 		req.pipe(
-			require('https').request({ host: 'svelte.dev', path: req.url })
+			require('https').request({ host: 'svelthree.dev', path: req.url })
 		).once('response', res_proxy => {
 			res_proxy.pipe(res);
 			res.writeHead(res_proxy.statusCode, res_proxy.headers);

@@ -19,7 +19,6 @@ export async function get(req, res) {
 		const { access_token } = parse(r1.data);
 		const r2 = await httpie.get('https://api.github.com/user', {
 			headers: {
-				//'User-Agent': 'svelte.dev',
 				'User-Agent': 'https://github.com/vatro',
 				Authorization: `token ${access_token}`
 			}

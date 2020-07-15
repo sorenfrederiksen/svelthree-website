@@ -44,7 +44,6 @@
 		<!-- <NavItem segment="blog">Blog</NavItem> -->
 		<NavItem segment="faq">FAQ</NavItem>
 
-		<!-- <NavItem external="https://sapper.svelte.dev">Sapper</NavItem> -->
 
 		<!-- <NavItem external="chat" title="Discord Chat">
 			<Icon name="message-square"/>
