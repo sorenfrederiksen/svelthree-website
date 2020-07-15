@@ -1,7 +1,7 @@
 {
-  "name": "svelte.dev",
-  "version": "1.0.0",
-  "description": "Docs and examples for Svelte",
+  "name": "svelthree.dev",
+  "version": "0.0.1",
+  "description": "Docs and examples for svelthree",
   "scripts": {
     "dev": "npm run copy-workers && sapper dev",
     "copy-workers": "rm -rf static/workers && cp -r node_modules/@sveltejs/svelte-repl/workers static",
@@ -60,5 +60,10 @@
   },
   "engines": {
     "node": ">=10.0.0"
-  }
+  },
+  "author": "Vatroslav Vrbanic",
+  "comments": {
+    "author": "Vatroslav Vrbanic forked and modified svelte.dev website (https://github.com/sveltejs/svelte/tree/master/site) probably authored by Rich Harris (no 'author' in package.json)"
+  },
+  "license": "MIT"
 }
