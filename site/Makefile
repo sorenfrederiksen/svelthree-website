@@ -1,12 +1,12 @@
 HASH := `git rev-parse --short HEAD`
 
-SERVICE := svelte-website
-PROJECT := svelte-dev
+SERVICE := svelthree-website
+PROJECT := svelthree-dev
 
 IMAGE := gcr.io/$(PROJECT)/$(SERVICE):$(HASH)
 
 sapper:
-	@echo "\n~> updating template & contributors list"
+	#@echo "\n~> updating template (skipped updating contributors list)"
 	@npm run update
 	@echo "\n~> building Sapper app"
 	@npm run sapper

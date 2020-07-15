@@ -7,7 +7,7 @@
     "copy-workers": "rm -rf static/workers && cp -r node_modules/@sveltejs/svelte-repl/workers static",
     "migrate": "node-pg-migrate -r dotenv/config",
     "sapper": "npm run copy-workers && sapper build --legacy",
-    "update": "node scripts/update_template.js && node scripts/get-contributors.js && node scripts/update_whos_using.js",
+    "update": "node scripts/update_template.js",
     "start": "dotenv node __sapper__/build",
     "test": "mocha -r esm test/**",
     "deploy": "make deploy"
@@ -63,7 +63,8 @@
   },
   "author": "Vatroslav Vrbanic",
   "comments": {
-    "author": "Vatroslav Vrbanic forked and modified svelte.dev website (https://github.com/sveltejs/svelte/tree/master/site) probably authored by Rich Harris (no 'author' in package.json)"
+    "author": "Vatroslav Vrbanic forked and modified svelte.dev website (https://github.com/sveltejs/svelte/tree/master/site) probably authored by Rich Harris (no 'author' in package.json)",
+    "update": "original: node scripts/update_template.js && node scripts/get-contributors.js && node scripts/update_whos_using.js"
   },
   "license": "MIT"
 }
