@@ -31,7 +31,7 @@
 </style>
 
 <svelte:head>
-	<title>REPL • Svelte</title>
+	<title>REPL • Svelthree</title>
 
 	<meta name="twitter:title" content="Svelte REPL">
 	<meta name="twitter:description" content="Svelte powered three.js development">

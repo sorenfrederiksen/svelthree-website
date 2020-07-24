@@ -188,7 +188,7 @@
 </style>
 
 <svelte:head>
-	<title>{name} • REPL • Svelte</title>
+	<title>{name} • REPL • Svelthree</title>
 
 	<meta name="twitter:title" content="Svelte REPL">
 	<meta name="twitter:description" content="Svelte powered three.js development">

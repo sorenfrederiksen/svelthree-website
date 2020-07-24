@@ -9,18 +9,18 @@
     Mesh,
     MeshStandardMaterial,
     WebGLRenderer,
-  } from "http://localhost:3000/svelthree/svelthree.mjs";
+  } from "https://unpkg.com/svelthree@latest/dist/svelthree.mjs";
 
   let cubeGeometry = new BoxBufferGeometry(1, 1, 1);
   let cubeMaterial = new MeshStandardMaterial();
 
   /**
    * When animating via 'animation'-prop you have to provide a "special" function:
-   * const ani = (obj:Object3D):{
-   *								onStart:():void => any,
-   *								onDestroy:() => any,
-   *								onSceneDeactivated?:() => any,
-   *								onSceneReactivated?:() => any
+   * const ani = (obj):{
+   *								onStart:() => void,
+   *								onDestroy:() => void,
+   *								onSceneDeactivated?:() => void,
+   *								onSceneReactivated?:() => void
    *							}
    *							=> {
    *								...
@@ -90,7 +90,8 @@
       mat={{ roughness: 0.5, metalness: 0.5, color: 0xff3e00 }}
       pos={[0, 0, 0]}
       scale={[1, 1, 1]}
-      animation={rotateCube} />
+      animation={rotateCube}
+      aniauto />
 
   </Scene>
 

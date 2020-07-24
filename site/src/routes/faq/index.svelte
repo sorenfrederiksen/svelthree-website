@@ -6,15 +6,15 @@
 </script>
 
 <script>
-	const description = "Frequently Asked Questions about Svelte"
+	const description = "Frequently Asked Questions about Svelthree"
 
 	export let faqs;
 </script>
 
 <svelte:head>
-	<title>Frequently Asked Questions • Svelte</title>
+	<title>Frequently Asked Questions • Svelthree</title>
 
-	<meta name="twitter:title" content="Svelte FAQ">
+	<meta name="twitter:title" content="Svelthree FAQ">
 	<meta name="twitter:description" content={description}>
 	<meta name="Description" content={description}>
 </svelte:head>

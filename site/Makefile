@@ -1,7 +1,7 @@
 HASH := `git rev-parse --short HEAD`
 
-SERVICE := svelthree-website
-PROJECT := svelthree-dev
+SERVICE := svelthree-dev
+PROJECT := enduring-coda-283321
 
 IMAGE := gcr.io/$(PROJECT)/$(SERVICE):$(HASH)
 
@@ -19,4 +19,4 @@ docker:
 
 deploy: sapper docker
 	@echo "\n~> deploying $(SERVICE) to Cloud Run servers"
-	@gcloud run deploy $(SERVICE) --project $(PROJECT) --allow-unauthenticated --platform managed --region us-central1 --image $(IMAGE) --memory=512Mi
+	@gcloud run deploy $(SERVICE) --project $(PROJECT) --allow-unauthenticated --platform managed --region europe-west4 --image $(IMAGE) --memory=512Mi

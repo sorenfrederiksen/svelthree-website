@@ -11,7 +11,7 @@
     AmbientLight,
     Vector3,
     MathUtils,
-  } from "http://localhost:3000/svelthree/svelthree.mjs";
+  } from "https://unpkg.com/svelthree@latest/dist/svelthree.mjs";
 
   import gsap from "gsap";
 

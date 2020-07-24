@@ -9,7 +9,7 @@
     Mesh,
     MeshStandardMaterial,
     WebGLRenderer,
-  } from "http://localhost:3000/svelthree/svelthree.mjs";
+  } from "https://unpkg.com/svelthree@latest/dist/svelthree.mjs";
 
   let cubeGeometry = new BoxBufferGeometry(1, 1, 1);
   let cubeMaterial = new MeshStandardMaterial();

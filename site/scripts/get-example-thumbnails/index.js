@@ -32,7 +32,8 @@ async function main() {
 			}
 
 			console.log(slug);
-			await page.goto(`http://localhost:3000/repl/embed?example=${slug}`);
+			//await page.goto(`http://localhost:3000/repl/embed?example=${slug}`);
+			await page.goto(`https://svelthree.dev/repl/embed?example=${slug}`);
 
 			await page.waitForSelector('iframe.inited[title=Result]');
 			await page.waitFor(1500);

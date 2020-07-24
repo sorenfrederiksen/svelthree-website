@@ -93,9 +93,9 @@
 </script>
 
 <svelte:head>
-	<title>{title} {title ? '•' : ''} Svelte Examples</title>
+	<title>{title} {title ? '•' : ''} Svelthree Examples</title>
 
-	<meta name="twitter:title" content="Svelte examples">
+	<meta name="twitter:title" content="Svelthree Examples">
 	<meta name="twitter:description" content="Svelte powered three.js development">
 	<meta name="Description" content="Interactive example Svelte apps">
 </svelte:head>

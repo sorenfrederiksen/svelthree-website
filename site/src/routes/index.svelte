@@ -29,7 +29,7 @@
 </style>
 
 <svelte:head>
-	<title>Svelte • Svelte powered three.js development</title>
+	<title>Svelthree • Svelte powered three.js development</title>
 
 	<meta name="twitter:title" content="Svelte">
 	<meta name="twitter:description" content="Svelte powered three.js development">
@@ -46,24 +46,29 @@
 <Blurb>
 
 	<div class="description" slot="what">
-		<p>Svelthree is a components library for declarative construction of reactive and reusable Threejs scene graphs utilizing nothing but Svelte and Threejs.<p/>
-		<p>Initally created as a proof of concept, svelthree now aims to be a library offering web-developers a declarative, component based, yet familiar, Threejs-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
+		<p>Svelthree is a <a href="https://svelte.dev" target="_blank">Svelte</a> components library for declarative construction of reactive and reusable <a href="https://threejs.org" target="_blank">three.js</a> scene graphs utilizing three.js source in a slightly modified version <a href="https://github.com/vatro/svelthree-three" target="_blank">svelthree-three</a>.<p/>
+		<p>Svelthree is still in an early "proof of concept" development phase aiming to offer a declarative, component based, yet familiar, three.js-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
 
 		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
 
-		<p>Explore our <a href="examples/">Examples</a> section and see it for yourself!</p>
+		<p>Explore our <a href="examples/">Examples</a> section and give it a try!</p>
 		<!-- <p><a href="faq/">See also our FAQ section</a> to learn more.</p> -->
+		<p>👨🏻‍💻 Svelthree is being developed by <a href="https://github.com/vatro" target="_blank">Vatroslav Vrbanic (vatro)</a> and will hopefully attract more contributors in future. Keep an eye on svelthree development and examples updates by following <a href="https://twitter.com/cream_dus_ceo" target="_blank">Vatro on Twitter</a>!<br/><br/>Thank you! 👍</p>
+	
 	</div>
 
 	<div style="grid-area: start; display: flex; flex-direction: column; min-width: 0" slot="how">
+		<p style="background: white ; padding-bottom: 2rem; margin-bottom: -0.5rem">Svelthree components' code is written in <em>TypeScript</em>. You can set up a new <a href="https://svelte.dev/blog/svelte-and-typescript" target="_blank">Svelte TypeScript project (official)</a> like this:</p>
 		<pre class="language-bash" style="margin: 0 0 1em 0; min-width: 0; min-height: 0">
-npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;">vatro/svelthree-starter</a> my-svelthree-project
-<span class="token comment"># or download and extract <a href="https://github.com/vatro/svelthree-starter/master.zip">this .zip file</a></span>
-cd my-svelthree-project
+npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;">sveltejs/template</a> my-svelthree-app
+<span class="token comment"># or download and extract <a href="https://github.com/sveltejs/template/master.zip">this .zip file</a></span>
+cd my-svelthree-app
 
+node scripts/setupTypeScript.js
 npm install
-npm run dev
+npm install svelthree --save-dev
 		</pre>
+		<p>🍦 You don't have to write TypeScript in order to use svelthree-components, change &lt;script lang="ts"&gt; to &lt;script&gt; and do it VanillaJS!</p>
 
 		<!-- <p style="flex: 1">See the <a href="blog/the-easiest-way-to-get-started">quickstart guide</a> for more information.</p> -->
 
@@ -78,11 +83,13 @@ npm run dev
 	</a>
 
 	<a href="https://threejs.org/" slot="two">
-		<h2>Three.js</h2>
-		<p>Threejs is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser. Threejs uses WebGL.</p>
+		<h2>three.js</h2>
+		<p>Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser. Three.js uses WebGL.</p>
 
 		<span class="learn-more">learn more</span>
 	</a>
+
+	
 
 	<!--
 	<a href="blog/svelte-3-rethinking-reactivity" slot="three">
@@ -92,6 +99,7 @@ npm run dev
 		<span class="learn-more">learn more</span>
 	</a>
 	-->
+	
 	
 </Blurb>
 
