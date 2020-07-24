@@ -73,7 +73,6 @@ export async function get(req, res) {
 		});
 	}
 
-	/*
 	if (process.env.NODE_ENV === 'development') {
 		// In dev, proxy requests to load particular REPLs to the real server.
 		// This avoids needing to connect to the real database server.
@@ -85,7 +84,6 @@ export async function get(req, res) {
 		}).once('error', () => res.end());
 		return;
 	}
-	*/
 
 	const [row] = await query(`
 		select g.*, u.uid as owner from gists g

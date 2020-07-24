@@ -14,7 +14,7 @@ const app = polka({
 	}
 });
 
-if (process.env.PGHOST) {
+if (process.env.INSTANCE_CONNECTION_NAME) {
 	app.use(authenticate());
 }
 
