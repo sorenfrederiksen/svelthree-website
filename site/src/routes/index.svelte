@@ -48,11 +48,7 @@
 	<div class="description" slot="what">
 		<p>Svelthree is a <a href="https://svelte.dev" target="_blank">Svelte</a> components library for declarative construction of reactive and reusable <a href="https://threejs.org" target="_blank">three.js</a> scene graphs utilizing three.js source in a slightly modified version <a href="https://github.com/vatro/svelthree-three" target="_blank">svelthree-three</a>.<p/>
 		<p>Svelthree is still in an early "proof of concept" development phase aiming to offer a declarative, component based, yet familiar, three.js-API benefiting from Svelte's rapid and friendly developer experience as well as it's high reactive perfomance.</p>
-
-		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
-
 		<p>Explore our <a href="examples/">Examples</a> section and give it a try!</p>
-		<!-- <p><a href="faq/">See also our FAQ section</a> to learn more.</p> -->
 		<p>👨🏻‍💻 Svelthree is being developed by <a href="https://github.com/vatro" target="_blank">Vatroslav Vrbanic (vatro)</a> and will hopefully attract more contributors in future. Keep an eye on svelthree development and examples updates by following <a href="https://twitter.com/cream_dus_ceo" target="_blank">Vatro on Twitter</a>!<br/><br/>Thank you! 👍</p>
 	
 	</div>
@@ -61,7 +57,7 @@
 		<p style="background: white ; padding-bottom: 2rem; margin-bottom: -0.5rem">Svelthree components' code is written in <em>TypeScript</em>. You can set up a new <a href="https://svelte.dev/blog/svelte-and-typescript" target="_blank">Svelte TypeScript project (official)</a> like this:</p>
 		<pre class="language-bash" style="margin: 0 0 1em 0; min-width: 0; min-height: 0">
 npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;">sveltejs/template</a> my-svelthree-app
-<span class="token comment"># or download and extract <a href="https://github.com/sveltejs/template/master.zip">this .zip file</a></span>
+<span class="token comment"># or download and extract <a href="https://github.com/sveltejs/template/archive/master.zip">this .zip file</a></span>
 cd my-svelthree-app
 
 node scripts/setupTypeScript.js
@@ -69,16 +65,11 @@ npm install
 npm install svelthree --save-dev
 		</pre>
 		<p>🍦 You don't have to write TypeScript in order to use svelthree-components, change &lt;script lang="ts"&gt; to &lt;script&gt; and do it VanillaJS!</p>
-
-		<!-- <p style="flex: 1">See the <a href="blog/the-easiest-way-to-get-started">quickstart guide</a> for more information.</p> -->
-
-		<!-- <p class="cta"><a rel="prefetch" href="tutorial">Learn Svelte</a></p> -->
 	</div>
 
 	<a href="https://svelte.dev/" slot="one">
 		<h2>Svelte</h2>
 		<p>Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.</p>
-		<!-- <p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.</p> -->
 		<span class="learn-more">learn more</span>
 	</a>
 
@@ -88,8 +79,6 @@ npm install svelthree --save-dev
 
 		<span class="learn-more">learn more</span>
 	</a>
-
-	
 
 	<!--
 	<a href="blog/svelte-3-rethinking-reactivity" slot="three">
