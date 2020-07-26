@@ -1,5 +1,5 @@
 ---
-question: I'm new to Svelte and theee.js, where should I start?
+question: I'm new to Svelte and three.js, where should I start?
 ---
 
 For questions regarding Svelte or three.js usage / APIs please visit their official websites:
